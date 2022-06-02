@@ -190,7 +190,7 @@ main {
 
 
             .content__left {
-                width: 56%;
+                width: 51%;
                 text-align: center;
                 display: flex;
                 justify-content: center;
@@ -200,6 +200,8 @@ main {
                 .content__left--text {
                     line-height: 2;
                     width: 70%;
+                    margin: 1rem 0;
+                    
 
                     h2 {
                         font-size: 2.9rem;
@@ -269,24 +271,24 @@ main {
             line-height: 2;
             width: 70%;
             position: relative;
-            top: 6rem;
+            top: 8rem;
 
-            h2 {
-                font-size: 2.9rem;
+            h3{
+                font-size: 1.5rem;
                 margin-bottom: 1rem;
-                line-height: 1;
                 color: hsl(212, 27%, 19%);
-                font-weight: 900;
                 font-family: 'Fraunces', serif;
-                object-fit: cover;
+                
             }
 
             p {
                 font-family: 'Barlow', sans-serif;
                 color: $Very_dark_grayish_blue;
-                font-size: 1.2rem;
+                font-size: 1rem;
                 font-weight: 800;
-                object-fit: cover;
+                padding: 0 1rem;
+                
+
             }
         }
     }
@@ -296,12 +298,17 @@ main {
 
     .comentarios {
         width: 100%;
-        height: 60vh;
 
-
+        .comentarios__titulo{
+            font-size: 2rem;
+            color: hsl(212, 27%, 19%);
+            font-weight: bold;
+            font-family: 'Fraunces', serif;
+        }
 
         .comentarios__container {
             margin: 5rem 0;
+
 
             .comentarios__box {
                 margin-top: 2rem;
@@ -326,6 +333,8 @@ main {
                         font-size: 0.8rem;
                         line-height: 2;
                         font-weight: 500;
+                        margin: 2rem 0;
+                        padding: 0 2rem;
                     }
 
                     h3 {
@@ -379,7 +388,7 @@ main {
 ================================================================= */
 
 footer{
-    padding: 3rem;
+    padding: 4rem;
     background: hsl(168, 32%, 55%);
     text-align: center;
     line-height: 7;
@@ -462,7 +471,7 @@ footer{
                     order: 1;
 
                     .content__left--text {
-                        padding: 2rem 0;
+                        padding: 5rem 0;
                         width: 100%;
 
                         h2 {
@@ -498,8 +507,6 @@ footer{
                 }
 
                 .content__left--text {
-
-                    top: 20%;
 
                     p {
                         font-size: 1rem;

@@ -46,9 +46,9 @@
       </nav>
       <div class="menu__moba" id="menuMoba"><i class="fa-solid fa-bars"></i></div>
     </header>
-    <article class="header__texto">
+    <article class="header__texto" id="header__texto">
       <h1 class="text-center">WE ARE CREATIVES</h1>
-      <img src="images/icon-arrow-down.svg" alt="icon-arrown-down">
+      <svg width="36" height="114" xmlns="http://www.w3.org/2000/svg"><g stroke="#FFF" stroke-width="6" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3v100M3 95.484l15 15 15-15"/></g></svg>
     </article>
   </div>
 
@@ -60,7 +60,7 @@
 
     <!--Service-->
 
-    <section class="content" id="#Services">
+    <section class="content" id="#Content">
       <article>
         <div class="content__left">
           <div class="content__left--text">
@@ -74,16 +74,16 @@
         </div>
         <div class="content__right">
           <picture>
-            <source media="(max-width: 375px)" srcset="images/mobile/image-transform.jpg">
-            <img src="images/desktop/image-transform.jpg" alt="transform image">
+            <source media="(max-width: 667px)" srcset="css/images/mobile/image-transform.jpg">
+            <img src="css/images/desktop/image-transform.jpg" alt="transform image">
           </picture>
         </div>
       </article>
       <article>
         <div class="content__rigt">
           <picture>
-            <source media="(min-width: 280px)" srcset="images/mobile/image-stand-out.jpg">
-            <img src="images/desktop/image-stand-out.jpg" alt="stand out imnage">
+            <source media="(min-width: 667px)" src="css/images/mobile/image-stand-out.jpg">
+            <img src="css/images/desktop/image-stand-out.jpg" alt="stand out imnage">
           </picture>
         </div>
         <div class="content__left">
@@ -123,7 +123,7 @@
 
     <!--Comentarios-->
 
-    <section class="comentarios container-lg my-4">
+    <section class="comentarios container-lg my-4" id="comentarios">
       <h2 class="text-center my-5 comentarios__titulo">Client testimonials</h2>
       <div class="comentarios__container d-flex">
         <div class="comentarios__box">
@@ -172,22 +172,22 @@
 
     <!--Galeria-->
 
-    <div class="galeria">
+    <div class="galeria" id="galeria">
       <picture>
-        <source media="(max-width:" 375px)="" srcset="images/mobile/image-gallery-milkbottles.jpg">
-        <img src="images/desktop/image-gallery-milkbottles.jpg" alt="milk bottle">
+        <source media="(max-width:" 375px)="" srcset="css/images/mobile/image-gallery-milkbottles.jpg">
+        <img src="css/images/desktop/image-gallery-milkbottles.jpg" alt="milk bottle">
       </picture>
       <picture>
-        <source media="max-width: 375px" srcset="images/mobile/image-gallery-orange.jpg">
-        <img src="images/desktop/image-gallery-orange.jpg" alt="orange">
+        <source media="max-width: 375px" srcset="css/images/mobile/image-gallery-orange.jpg">
+        <img src="css/images/desktop/image-gallery-orange.jpg" alt="orange">
       </picture>
       <picture>
-        <source media="max-width: 375px" srcset="images/mobile/image-gallery-cone.jpg">
-        <img src="images/desktop/image-gallery-cone.jpg" alt="ice cream cone">
+        <source media="max-width: 375px" srcset="css/images/mobile/image-gallery-cone.jpg">
+        <img src="css/images/desktop/image-gallery-cone.jpg" alt="ice cream cone">
       </picture>
       <picture>
-        <source media="(max-width:" 375px)="" srcset="images/mobile/image-gallery-sugarcubes.jpg">
-        <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="sugar cubes">
+        <source media="(max-width:" 375px)="" src="css/images/mobile/image-gallery-sugar-cubes.jpg">
+        <img src="css/images/desktop/image-gallery-sugarcubes.jpg" alt="sugar cubes">
       </picture>
     </div>
     <!--Galeria-->
@@ -195,8 +195,10 @@
 
   <!--Main / end-->
 
-  <footer class="footer">
-    <h2  class="footer__titulo">
+  <!--Footer-->
+
+  <footer class="footer" id="footer">
+    <h2 class="footer__titulo">
         Sunnyside s logo
     </h2>
     <div class="link">
@@ -212,34 +214,13 @@
     </div>
   </footer>
 
+   <!--Footer / End-->
+
+  <!--Script-->
+
   <script src="script/main.js"></script>
 
-
-
-
-
-  <!--
- 
-  Client testimonials
-
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact
-
-  -->
+  <!--Script / End-->
 
 </body>
 
