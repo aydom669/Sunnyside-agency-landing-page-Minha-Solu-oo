@@ -319,7 +319,7 @@ footer {
         main .comentarios .comentarios__container .comentarios__box {
           margin: 2rem 0; }
           main .comentarios .comentarios__container .comentarios__box .comentarios__text {
-            width: 50%;
+            width: 100%;
             margin: 0 auto; }
     main .galeria {
       display: flex;
